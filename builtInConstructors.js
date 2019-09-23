@@ -8,7 +8,7 @@ name2.foo = 'bar';
 console.log(typeof name1); // string
 console.log(typeof name2); // object
 
-if(name1 === 'Jeff'){
+if (name1 === 'Jeff') {
   console.log('Yes');
 } else {
   console.log('No');
@@ -26,21 +26,21 @@ const boo2 = new Boolean(true);
 
 // Functions
 
-const getSum1 = function (x, y){
+const getSum1 = function (x, y) {
   return x + y;
-}
+};
 
 const getSum2 = new Function('x', 'y', 'return 1 + 1');
 
-console.log(getSum1(1,1));
+console.log(getSum1(1, 1));
 
 // Objects
 
 const john = {
-  name: 'John'
+  name: 'John',
 };
 
-const john2 = new Object({name: 'John'});
+const john2 = new Object({ name: 'John' });
 
 // Arrays
 

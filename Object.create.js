@@ -8,6 +8,7 @@ const personPrototypes = {
 
   getsMarried: function(newLastName) {
     this.lastName = newLastName; // updating the last name object
+    }
   }
 }
 
